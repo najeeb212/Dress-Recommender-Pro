@@ -1,5 +1,5 @@
-FROM python:3.8
-WORKDIR /app
-COPY . /app
-RUN pip install -r requirements.txt
-CMD ["python", "main.py"]
+Flask==2.3.2
+opencv-python==4.8.0.76
+numpy==1.24.3
+tensorflow==2.12.0
+gunicorn==20.1.0
